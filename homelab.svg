@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Home lab: an ASUS TUF dev machine (Ryzen 7 8845H, RTX 3050 4 GB, 7.2 GB usable RAM) connected by a direct Ethernet cable, no router, at about 11 MB/s to an HP laptop (Intel i3, 4 GB RAM) running Tiny10 as a headless file server, installed over PXE boot.">
+<rect width="900" height="300" rx="16" fill="#1c1a19"/><rect x="0.5" y="0.5" width="899" height="299" rx="15.5" fill="none" stroke="#D97757" stroke-opacity="0.35"/>
+<style>.n{animation:up .7s ease-out both}@keyframes up{from{opacity:0;transform:translateY(8px)}}
+.flow{stroke-dasharray:8 8;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-16}}
+.flow2{stroke-dasharray:4 8;animation:fl 1.6s linear infinite}</style>
+<text x="30" y="28" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#a8a29e" letter-spacing="1.5">MY HOME LAB</text>
+<g class="n"><rect x="30" y="46" width="300" height="170" rx="14" fill="#2b2826" stroke="#D97757" stroke-opacity="0.5"/>
+<rect x="50" y="66" width="34" height="22" rx="4" fill="none" stroke="#D97757" stroke-width="2"/><rect x="44" y="90" width="46" height="4" rx="2" fill="#D97757"/>
+<text x="102" y="86" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#faf9f5">ASUS TUF</text>
+<text x="50" y="128" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#D97757">dev machine</text>
+<text x="50" y="160" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#e7e2dc">Ryzen 7 8845H · RTX 3050 4GB</text>
+<text x="50" y="184" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#e7e2dc">7.2 GB usable RAM (shared w/ iGPU)</text></g>
+<g class="n"><rect x="570" y="46" width="300" height="170" rx="14" fill="#2b2826" stroke="#D97757" stroke-opacity="0.5"/>
+<rect x="590" y="66" width="34" height="22" rx="4" fill="none" stroke="#D97757" stroke-width="2"/><rect x="584" y="90" width="46" height="4" rx="2" fill="#D97757"/>
+<text x="642" y="86" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#faf9f5">HP laptop</text>
+<text x="590" y="128" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#D97757">headless file server</text>
+<text x="590" y="160" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#e7e2dc">Intel i3 · 4 GB RAM · HDD</text>
+<text x="590" y="184" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#e7e2dc">Tiny10 · SMB share</text></g>
+<line class="flow" x1="340" y1="120" x2="560" y2="120" stroke="#D97757" stroke-width="3" stroke-linecap="round"/>
+<circle cx="336" cy="120" r="5" fill="#D97757"/><circle cx="564" cy="120" r="5" fill="#D97757"/>
+<text x="450" y="104" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#faf9f5">direct Ethernet cable</text>
+<text x="450" y="146" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#a8a29e">no router · ~11 MB/s</text>
+<line class="flow2" x1="340" y1="190" x2="560" y2="190" stroke="#a8a29e" stroke-width="2" stroke-linecap="round"/>
+<path d="M560 190 l-8 -5 v10 z" fill="#a8a29e"/>
+<text x="450" y="176" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#faf9f5">PXE boot</text>
+<text x="450" y="212" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#a8a29e">reinstalled with no USB</text>
+<text x="450" y="266" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14" fill="#faf9f5">Two laptops, one cable, no router.</text>
+</svg>
