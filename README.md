@@ -20,6 +20,14 @@ Self-taught and still learning. I make automation and Windows tools in Python an
 
 <img src="./done.svg" alt="Things I've done: shipped 200+ videos with an automated pipeline; built multi-provider API failover; automated my own ops; rescued a 2.85 GiB corrupted git history; worked around tight hardware; built a PXE network-boot server from scratch; shut down a project after auditing it honestly." width="100%">
 
+<img src="./h-setup.svg" alt="My setup" width="100%">
+
+<img src="./pipeline.svg" alt="My automated video pipeline: topic, script, voice, render, upload, analytics, with results feeding the next run. 200+ videos published this way." width="100%">
+
+<br>
+
+<img src="./homelab.svg" alt="My home lab: ASUS TUF dev machine connected by a direct Ethernet cable to an HP laptop file server. No router, about 11 MB/s. HP installed over PXE boot." width="100%">
+
 <img src="./h-stack.svg" alt="What I've worked with" width="100%">
 
 <img src="./stack.svg" alt="Languages: Python, PowerShell. Tools: Claude Code, Git, GitHub, FFmpeg, Windows. Claude Code is my main tool." width="100%">
