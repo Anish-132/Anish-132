@@ -2,33 +2,81 @@
 
 <img src="banner.svg" alt="Anish, self-taught builder of automation and Windows tooling" width="100%"/>
 
-<img src="stack.svg" alt="Python, PowerShell, Windows internals, Git, Linux, SQLite, FFmpeg, pywebview, LiteLLM, Claude Code" width="100%"/>
+<img src="stack.svg" alt="Skills scrolling past in two lanes: Python, PowerShell, Windows internals, Git, Linux, SQLite, FFmpeg, pywebview, LiteLLM, Claude Code" width="100%"/>
 
 </div>
 
-## Flow
+<img src="hd-flow.svg" alt="Flow" width="100%"/>
 
-A Windows optimizer that checks your hardware first, then only applies tweaks that make sense for your machine. Restore point before anything changes, every change logged and revertible.
+A Windows optimizer that checks your hardware first, then only applies tweaks that make sense for your machine. Click the demo to open the repo.
 
-<img src="flow.svg" alt="Animated mock of Flow auditing hardware, creating a restore point and applying gated tweaks" width="100%"/>
+<a href="https://github.com/Anish-132/Flow-Win-Opt"><img src="flow.svg" alt="Live demo of Flow: hardware fingerprint, restore point, a cursor flipping gated tweaks on" width="100%"/></a>
 
-`Python` `PowerShell` `pywebview` · [Anish-132/Flow-Win-Opt](https://github.com/Anish-132/Flow-Win-Opt) · MIT, no longer maintained
+<details>
+<summary><b>What Flow actually does</b> (click to open)</summary>
 
-<img src="stats.svg" alt="2.85 GiB history down to 475 KB, 1 model to 21 combos, 200+ hardware-gated tweaks" width="100%"/>
+<br>
 
-## How I work
+- Fingerprints CPU, RAM, disk type and GPU before touching anything
+- 200+ researched tweaks, gated by OS and hardware
+- Restore point first, every change logged and revertible
+- Background daemon that runs safe daily cleans and blocks tweaks that keep failing
+- Python, PowerShell, pywebview. MIT, no longer maintained: [Anish-132/Flow-Win-Opt](https://github.com/Anish-132/Flow-Win-Opt)
 
-- **Measure first.** Flow fingerprints CPU, RAM, disk and GPU before it touches anything. I do the same with bugs: probe, then fix the cause.
-- **Everything reversible.** Restore point first, every change logged. If I can't undo it, I don't ship it.
-- **Agent reports are claims, not evidence.** After an unattended Claude Code session reported its own fixes, I diffed it. Some files it called unchanged had changed. I audit before I trust.
+</details>
 
-## The lab
+<img src="stats.svg" alt="Bars morphing from before to after: 2.85 GiB to 475 KB, 1 model to 21 combos, blind tweaks to 200+ gated" width="100%"/>
 
-Two laptops, one cable, no router. The HP is a disposable agent sandbox with key-only SSH and no sudo. When the power drops it shuts down cleanly, and the ASUS wakes it when power returns.
+<img src="hd-how.svg" alt="How I work" width="100%"/>
 
-<img src="homelab.svg" alt="ASUS and HP laptops linked by one cable, replaying a power cut and Wake-on-LAN recovery" width="100%"/>
+<details>
+<summary><b>Measure first</b></summary>
 
-## Contact
+<br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Anish--132-100d1f?style=flat-square&logo=github&logoColor=9d7bff)](https://github.com/Anish-132)
-[![Email](https://img.shields.io/badge/Email-YOUR__EMAIL-100d1f?style=flat-square&logo=gmail&logoColor=ff4fd8)](mailto:YOUR_EMAIL)
+Flow fingerprints the hardware before it changes anything. I do the same with bugs: run a probe, read the real output, then fix the cause instead of the symptom.
+
+</details>
+
+<details>
+<summary><b>Everything reversible</b></summary>
+
+<br>
+
+Restore point first, every change logged. If I can't undo it, I don't ship it.
+
+</details>
+
+<details>
+<summary><b>Agent reports are claims, not evidence</b></summary>
+
+<br>
+
+After an unattended Claude Code session reported its own fixes, I diffed it. Files it called unchanged had changed. I audit before I trust.
+
+</details>
+
+<img src="hd-lab.svg" alt="The lab" width="100%"/>
+
+Two laptops, one cable, no router. The HP is a disposable agent sandbox with key-only SSH and no sudo. Watch the pulse: when the power drops, the HP goes flat, then the ASUS wakes it back up.
+
+<img src="homelab.svg" alt="Live replay of a power cut: HP heartbeat flatlines, ASUS sends a Wake-on-LAN packet, HP comes back" width="100%"/>
+
+<details>
+<summary><b>The power-cut sequence, step by step</b></summary>
+
+<br>
+
+1. Mains drops
+2. HP shuts down cleanly after a 25 second grace period
+3. It leaves a flag file on the ASUS
+4. Mains returns
+5. The ASUS sends a Wake-on-LAN packet
+6. HP boots and the flag clears
+
+</details>
+
+<img src="hd-contact.svg" alt="Contact" width="100%"/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-Anish--132-100d1f?style=for-the-badge&logo=github&logoColor=9d7bff)](https://github.com/Anish-132)
+[![Email](https://img.shields.io/badge/Email-YOUR__EMAIL-100d1f?style=for-the-badge&logo=gmail&logoColor=ff4fd8)](mailto:YOUR_EMAIL)
