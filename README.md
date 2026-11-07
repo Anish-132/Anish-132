@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Anish, self-taught builder of automation and Windows tooling" width="100%"/>
+<img src="banner.svg" alt="Anish, self-taught builder of automation and Windows tooling" width="100%"/>
 
-<img src="assets/stack.svg" alt="Python, PowerShell, Windows internals, Git, Linux, SQLite, FFmpeg, pywebview, LiteLLM, Claude Code" width="100%"/>
+<img src="stack.svg" alt="Python, PowerShell, Windows internals, Git, Linux, SQLite, FFmpeg, pywebview, LiteLLM, Claude Code" width="100%"/>
 
 </div>
 
@@ -10,11 +10,11 @@
 
 A Windows optimizer that checks your hardware first, then only applies tweaks that make sense for your machine. Restore point before anything changes, every change logged and revertible.
 
-<img src="assets/flow.svg" alt="Animated mock of Flow auditing hardware, creating a restore point and applying gated tweaks" width="100%"/>
+<img src="flow.svg" alt="Animated mock of Flow auditing hardware, creating a restore point and applying gated tweaks" width="100%"/>
 
 `Python` `PowerShell` `pywebview` · [Anish-132/Flow-Win-Opt](https://github.com/Anish-132/Flow-Win-Opt) · MIT, no longer maintained
 
-<img src="assets/stats.svg" alt="2.85 GiB history down to 475 KB, 1 model to 21 combos, 200+ hardware-gated tweaks" width="100%"/>
+<img src="stats.svg" alt="2.85 GiB history down to 475 KB, 1 model to 21 combos, 200+ hardware-gated tweaks" width="100%"/>
 
 ## How I work
 
@@ -26,7 +26,7 @@ A Windows optimizer that checks your hardware first, then only applies tweaks th
 
 Two laptops, one cable, no router. The HP is a disposable agent sandbox with key-only SSH and no sudo. When the power drops it shuts down cleanly, and the ASUS wakes it when power returns.
 
-<img src="assets/homelab.svg" alt="ASUS and HP laptops linked by one cable, replaying a power cut and Wake-on-LAN recovery" width="100%"/>
+<img src="homelab.svg" alt="ASUS and HP laptops linked by one cable, replaying a power cut and Wake-on-LAN recovery" width="100%"/>
 
 ## Contact
 
