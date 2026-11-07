@@ -1,43 +1,34 @@
 <div align="center">
-<img src="./banner.svg" alt="Hey, I'm Anish. Self-taught and still learning." width="100%">
-<br><br>
-<img src="./terminal.svg" alt="whoami: Anish, self-taught, still learning. Focus: Python, automation, Windows tools. Main tool: Claude Code. Project: Flow-Win-Opt." width="100%">
-</div>
 
-<img src="./h-about.svg" alt="About me" width="100%">
+<img src="assets/banner.svg" alt="Anish, self-taught builder of automation and Windows tooling" width="100%"/>
 
-Self-taught and still learning. I make automation and Windows tools in Python and PowerShell, mostly on modest hardware with free tools only.
-
-<img src="./h-project.svg" alt="Featured project" width="100%">
-
-<a href="https://github.com/Anish-132/Flow-Win-Opt"><img src="./flow-card.svg" alt="Flow-Win-Opt: a Windows optimizer that reads your hardware first. Fingerprints CPU, RAM, disk and GPU. 200+ researched tweaks across 4 risk tiers. Restore point first, every change revertible." width="100%"></a>
-
-<img src="./h-highlights.svg" alt="Highlights" width="100%">
-
-<img src="./stats.svg" alt="200+ videos published, 6 root causes found, 2.85 GiB to 475 KB repo rescue, about 720 MB disk writes cut per render" width="100%">
-
-<img src="./h-done.svg" alt="Things I've done" width="100%">
-
-<img src="./done.svg" alt="Things I've done: shipped 200+ videos with an automated pipeline; built multi-provider API failover; automated my own ops; rescued a 2.85 GiB corrupted git history; worked around tight hardware; built a PXE network-boot server from scratch; shut down a project after auditing it honestly." width="100%">
-
-<img src="./h-setup.svg" alt="My setup" width="100%">
-
-<img src="./pipeline.svg" alt="My automated video pipeline: topic, script, voice, render, upload, analytics, with results feeding the next run. 200+ videos published this way." width="100%">
-
-<br>
-
-<img src="./homelab.svg" alt="My home lab: ASUS TUF dev machine connected by a direct Ethernet cable to an HP laptop file server. No router, about 11 MB/s. HP installed over PXE boot." width="100%">
-
-<img src="./h-stack.svg" alt="What I've worked with" width="100%">
-
-<img src="./stack.svg" alt="Languages: Python, PowerShell. Tools: Claude Code, Git, GitHub, FFmpeg, Windows. Claude Code is my main tool." width="100%">
-
-<img src="./h-contact.svg" alt="Contact" width="100%">
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-Poudelanish051%40gmail.com-D97757?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Poudelanish051@gmail.com)
-[![Backup email](https://img.shields.io/badge/Backup-ennuing1%40gmail.com-30363d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ennuing1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Anish--132-30363d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anish-132)
+<img src="assets/stack.svg" alt="Python, PowerShell, Windows internals, Git, Linux, SQLite, FFmpeg, pywebview, LiteLLM, Claude Code" width="100%"/>
 
 </div>
+
+## Flow
+
+A Windows optimizer that checks your hardware first, then only applies tweaks that make sense for your machine. Restore point before anything changes, every change logged and revertible.
+
+<img src="assets/flow.svg" alt="Animated mock of Flow auditing hardware, creating a restore point and applying gated tweaks" width="100%"/>
+
+`Python` `PowerShell` `pywebview` · [Anish-132/Flow-Win-Opt](https://github.com/Anish-132/Flow-Win-Opt) · MIT, no longer maintained
+
+<img src="assets/stats.svg" alt="2.85 GiB history down to 475 KB, 1 model to 21 combos, 200+ hardware-gated tweaks" width="100%"/>
+
+## How I work
+
+- **Measure first.** Flow fingerprints CPU, RAM, disk and GPU before it touches anything. I do the same with bugs: probe, then fix the cause.
+- **Everything reversible.** Restore point first, every change logged. If I can't undo it, I don't ship it.
+- **Agent reports are claims, not evidence.** After an unattended Claude Code session reported its own fixes, I diffed it. Some files it called unchanged had changed. I audit before I trust.
+
+## The lab
+
+Two laptops, one cable, no router. The HP is a disposable agent sandbox with key-only SSH and no sudo. When the power drops it shuts down cleanly, and the ASUS wakes it when power returns.
+
+<img src="assets/homelab.svg" alt="ASUS and HP laptops linked by one cable, replaying a power cut and Wake-on-LAN recovery" width="100%"/>
+
+## Contact
+
+[![GitHub](https://img.shields.io/badge/GitHub-Anish--132-100d1f?style=flat-square&logo=github&logoColor=9d7bff)](https://github.com/Anish-132)
+[![Email](https://img.shields.io/badge/Email-YOUR__EMAIL-100d1f?style=flat-square&logo=gmail&logoColor=ff4fd8)](mailto:YOUR_EMAIL)
